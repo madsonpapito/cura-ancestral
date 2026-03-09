@@ -95,12 +95,12 @@
         }
 
         .author-img {
-            width: 60px;
-            height: 60px;
+            width: 70px;
+            height: 70px;
             border-radius: 50%;
-            background: #ddd url('https://img.icons8.com/color/96/mrs-powell.png') no-repeat center;
+            background: #ddd url('imagem/avatares/female-1.png') no-repeat center;
             background-size: cover;
-            border: 2px solid var(--verde-floresta);
+            border: 3px solid var(--verde-floresta);
         }
 
         .tsl-image {
@@ -201,6 +201,17 @@
             border: 1px solid #eee;
             margin: 40px 0;
             font-style: italic;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .testimonial-skeptic-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 2px solid var(--verde-floresta);
+            flex-shrink: 0;
         }
 
         /* FAQ */
@@ -245,10 +256,20 @@
         .ba-before { background: #fee; border: 1px solid #fcc; }
         .ba-after { background: #efe; border: 1px solid #cfc; }
 
+        .comment-avatar {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            flex-shrink: 0;
+        }
+
         @media (max-width: 600px) {
             .headline { font-size: 2.2em; }
             .container { padding: 15px; }
             .before-after { grid-template-columns: 1fr; }
+            .testimonial-skeptic { flex-direction: column; text-align: center; }
         }
     </style>
 </head>
@@ -319,8 +340,11 @@
             </div>
 
             <div class="testimonial-skeptic">
-                <p>"Vou ser honesto: quase fechei essa página achando que era promessa de internet. Eu gastava R$ 450 mensais na farmácia. No 5º dia do Protocolo, a queimação gástrica sumiu. Em duas semanas, voltei a caminhar na praça sem mancar. O Manual se pagou em 10 dias."</p>
-                <small>— <strong>Jorge Mendes, 64 anos</strong> (Bancário Aposentado)</small>
+                <img src="imagem/avatares/male-1.png" class="testimonial-skeptic-img" alt="Jorge Mendes">
+                <div>
+                    <p>"Vou ser honesto: quase fechei essa página achando que era promessa de internet. Eu gastava R$ 450 mensais na farmácia. No 5º dia do Protocolo, a queimação gástrica sumiu. Em duas semanas, voltei a caminhar na praça sem mancar."</p>
+                    <small>— <strong>Jorge Mendes, 64 anos</strong> (Bancário Aposentado)</small>
+                </div>
             </div>
 
             <div class="offer-card" id="oferta">
@@ -347,6 +371,37 @@
                     <div>
                         <strong>GARANTIA 'OU VOCÊ CURA OU EU PAGO'</strong><br>
                         <small>30 dias de teste. Se não economizar na farmácia ou não sentir seu corpo 'desenferrujar', eu devolvo 100% do seu dinheiro. O risco é TODO meu.</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-proof">
+                <h3>O que estão dizendo...</h3>
+                
+                <div class="comment-box">
+                    <div class="comment-avatar" style="background-image: url('imagem/avatares/female-2.png');"></div>
+                    <div class="comment-content">
+                        <div style="font-weight: bold; color: var(--azul-facebook);">Maria Auxiliadora S.</div>
+                        <div>Eu tinha medo de ser um fardo para os meus filhos. Com 10 dias do Protocolo VITAL eu já subi a escada da igreja sem dor no joelho. Deus abençoe, Dirce!</div>
+                        <div style="font-size: 0.8em; color: #777; margin-top: 5px;">Curtir · Responder · 4 min</div>
+                    </div>
+                </div>
+
+                <div class="comment-box">
+                    <div class="comment-avatar" style="background-image: url('imagem/avatares/female-3.png');"></div>
+                    <div class="comment-content">
+                        <div style="font-weight: bold; color: var(--azul-facebook);">Lourdes Rocha</div>
+                        <div>Eu não acreditava que o açafrão com óleo de coco faria o que o remédio de R$ 120 não fez. Minha vida mudou, não sinto mais aquela queimação chata!</div>
+                        <div style="font-size: 0.8em; color: #777; margin-top: 5px;">Curtir · Responder · 22 min</div>
+                    </div>
+                </div>
+
+                <div class="comment-box">
+                    <div class="comment-avatar" style="background-image: url('imagem/avatares/female-1.png');"></div> <!-- Reusing female-1 for a generic look if needed or could use another -->
+                    <div class="comment-content">
+                        <div style="font-weight: bold; color: var(--azul-facebook);">Zezé Motta</div>
+                        <div>O Guia Mercado de Ouro me ajudou a economizar muito. Agora minha cozinha é meu laboratório de cura. Recomendo para todas as amigas do bairro!</div>
+                        <div style="font-size: 0.8em; color: #777; margin-top: 5px;">Curtir · Responder · 1 h</div>
                     </div>
                 </div>
             </div>
