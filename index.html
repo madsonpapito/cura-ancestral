@@ -193,40 +193,77 @@
             100% { transform: scale(1); }
         }
 
-        /* Testimonials */
-        .testimonial-skeptic {
-            background: #fdfdfd;
-            padding: 30px;
-            border-radius: 12px;
-            border: 1px solid #eee;
-            margin: 40px 0;
-            font-style: italic;
-            display: flex;
-            align-items: center;
-            gap: 20px;
+        .social-proof {
+            margin-top: 60px;
+            border-top: 1px solid var(--borda-suave);
+            padding-top: 40px;
+            font-family: Helvetica, Arial, sans-serif;
         }
 
-        .testimonial-skeptic-img {
-            width: 80px;
-            height: 80px;
+        .social-proof h3 {
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 1.1em;
+            color: #65676b;
+            margin-bottom: 20px;
+        }
+
+        .comment-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .comment-avatar {
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
-            border: 2px solid var(--verde-floresta);
+            background-size: cover;
+            background-position: center;
             flex-shrink: 0;
         }
 
-        /* FAQ */
-        .faq-section {
-            margin-top: 80px;
-            font-family: 'Segoe UI', sans-serif;
+        .comment-bubble {
+            background-color: #f0f2f5;
+            padding: 10px 15px;
+            border-radius: 18px;
+            max-width: 90%;
         }
 
-        .faq-item {
-            margin-bottom: 30px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
+        .comment-name {
+            font-weight: bold;
+            color: #050505;
+            font-size: 0.9em;
+            margin-bottom: 2px;
+            display: block;
         }
 
-        .faq-question { font-weight: bold; color: var(--verde-floresta); font-size: 1.2em; margin-bottom: 10px; }
+        .comment-text {
+            color: #050505;
+            font-size: 0.95em;
+            line-height: 1.3;
+        }
+
+        .comment-actions {
+            font-size: 0.8em;
+            color: #65676b;
+            margin-top: 4px;
+            margin-left: 50px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .comment-actions span {
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .comment-actions span:hover {
+            text-decoration: underline;
+        }
+
+        .comment-actions .timestamp {
+            font-weight: normal;
+        }
 
         .references-section {
             font-size: 0.85em;
@@ -256,20 +293,10 @@
         .ba-before { background: #fee; border: 1px solid #fcc; }
         .ba-after { background: #efe; border: 1px solid #cfc; }
 
-        .comment-avatar {
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-            background-size: cover;
-            background-position: center;
-            flex-shrink: 0;
-        }
-
         @media (max-width: 600px) {
             .headline { font-size: 2.2em; }
             .container { padding: 15px; }
             .before-after { grid-template-columns: 1fr; }
-            .testimonial-skeptic { flex-direction: column; text-align: center; }
         }
     </style>
 </head>
@@ -339,14 +366,6 @@
                 </ul>
             </div>
 
-            <div class="testimonial-skeptic">
-                <img src="imagem/avatares/male-1.png" class="testimonial-skeptic-img" alt="Jorge Mendes">
-                <div>
-                    <p>"Vou ser honesto: quase fechei essa página achando que era promessa de internet. Eu gastava R$ 450 mensais na farmácia. No 5º dia do Protocolo, a queimação gástrica sumiu. Em duas semanas, voltei a caminhar na praça sem mancar."</p>
-                    <small>— <strong>Jorge Mendes, 64 anos</strong> (Bancário Aposentado)</small>
-                </div>
-            </div>
-
             <div class="offer-card" id="oferta">
                 <div style="text-transform: uppercase; font-weight: bold; color: #C0392B; font-size: 0.9em; margin-bottom: 15px; letter-spacing: 2px;">OFERTA DE ALFORRIA: LOTE PROMOCIONAL</div>
                 <h2>Tenha a Cura na sua Despensa Agora</h2>
@@ -376,32 +395,62 @@
             </div>
 
             <div class="social-proof">
-                <h3>O que estão dizendo...</h3>
+                <h3>Comentários em destaque</h3>
                 
-                <div class="comment-box">
-                    <div class="comment-avatar" style="background-image: url('imagem/avatares/female-2.png');"></div>
-                    <div class="comment-content">
-                        <div style="font-weight: bold; color: var(--azul-facebook);">Maria Auxiliadora S.</div>
-                        <div>Eu tinha medo de ser um fardo para os meus filhos. Com 10 dias do Protocolo VITAL eu já subi a escada da igreja sem dor no joelho. Deus abençoe, Dirce!</div>
-                        <div style="font-size: 0.8em; color: #777; margin-top: 5px;">Curtir · Responder · 4 min</div>
+                <div class="comment-container">
+                    <div class="comment-box">
+                        <div class="comment-avatar" style="background-image: url('imagem/avatares/female-2.png');"></div>
+                        <div class="comment-bubble">
+                            <span class="comment-name">Maria Auxiliadora S.</span>
+                            <span class="comment-text">Finalmente alguém explicou por que os chás que eu fazia não funcionavam! Estou no dia 4 do Elixir e a queimação sumiu. Gratidão Dirce! 🙏</span>
+                        </div>
                     </div>
-                </div>
-
-                <div class="comment-box">
-                    <div class="comment-avatar" style="background-image: url('imagem/avatares/female-3.png');"></div>
-                    <div class="comment-content">
-                        <div style="font-weight: bold; color: var(--azul-facebook);">Lourdes Rocha</div>
-                        <div>Eu não acreditava que o açafrão com óleo de coco faria o que o remédio de R$ 120 não fez. Minha vida mudou, não sinto mais aquela queimação chata!</div>
-                        <div style="font-size: 0.8em; color: #777; margin-top: 5px;">Curtir · Responder · 22 min</div>
+                    <div class="comment-actions">
+                        <span>Curtir</span> <span>Responder</span> <span class="timestamp">4 min</span>
                     </div>
-                </div>
 
-                <div class="comment-box">
-                    <div class="comment-avatar" style="background-image: url('imagem/avatares/female-1.png');"></div> <!-- Reusing female-1 for a generic look if needed or could use another -->
-                    <div class="comment-content">
-                        <div style="font-weight: bold; color: var(--azul-facebook);">Zezé Motta</div>
-                        <div>O Guia Mercado de Ouro me ajudou a economizar muito. Agora minha cozinha é meu laboratório de cura. Recomendo para todas as amigas do bairro!</div>
-                        <div style="font-size: 0.8em; color: #777; margin-top: 5px;">Curtir · Responder · 1 h</div>
+                    <div class="comment-box">
+                        <div class="comment-avatar" style="background-image: url('imagem/avatares/female-3.png');"></div>
+                        <div class="comment-bubble">
+                            <span class="comment-name">Lourdes Rocha</span>
+                            <span class="comment-text">Eu não acreditava que o açafrão com óleo de coco faria o que o remédio de R$ 120 não fez. Minha vida mudou, não sinto mais aquela queimação chata!</span>
+                        </div>
+                    </div>
+                    <div class="comment-actions">
+                        <span>Curtir</span> <span>Responder</span> <span class="timestamp">22 min</span>
+                    </div>
+
+                    <div class="comment-box">
+                        <div class="comment-avatar" style="background-image: url('imagem/avatares/female-1.png');"></div>
+                        <div class="comment-bubble">
+                            <span class="comment-name">Zezé Motta</span>
+                            <span class="comment-text">O Guia Mercado de Ouro me ajudou a economizar muito. Agora minha cozinha é meu laboratório de cura. Recomendo para todas as amigas!</span>
+                        </div>
+                    </div>
+                    <div class="comment-actions">
+                        <span>Curtir</span> <span>Responder</span> <span class="timestamp">1 h</span>
+                    </div>
+
+                    <div class="comment-box">
+                        <div class="comment-avatar" style="background-image: url('imagem/avatares/female-2.png');"></div>
+                        <div class="comment-bubble">
+                            <span class="comment-name">Dona Eunice</span>
+                            <span class="comment-text">Minha pressão estabilizou depois que comecei a usar o alho ativado pelo SAB. Até o meu médico perguntou o que eu estava fazendo de diferente. Estou muito feliz!</span>
+                        </div>
+                    </div>
+                    <div class="comment-actions">
+                        <span>Curtir</span> <span>Responder</span> <span class="timestamp">2 h</span>
+                    </div>
+
+                    <div class="comment-box">
+                        <div class="comment-avatar" style="background-image: url('imagem/avatares/male-1.png');"></div>
+                        <div class="comment-bubble">
+                            <span class="comment-name">Seu Antenor</span>
+                            <span class="comment-text">A dor na lombar que me acompanhava há 15 anos finalmente deu trégua. Faço a compressa toda noite e acordo pronto para outra. Melhor investimento que já fiz.</span>
+                        </div>
+                    </div>
+                    <div class="comment-actions">
+                        <span>Curtir</span> <span>Responder</span> <span class="timestamp">3 h</span>
                     </div>
                 </div>
             </div>
