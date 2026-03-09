@@ -8,8 +8,8 @@
         :root {
             --verde-floresta: #2D5A27;
             --verde-claro: #4A7C44;
-            --branco-crema: #F9F9F7;
-            --texto-cinza: #333333;
+            --branco-crema: #FDFDFB; /* Brancos mais puros para contraste */
+            --texto-cinza: #1A1A1A; /* Texto mais escuro para leitura */
             --laranja-cta: #F28C28;
             --borda-suave: #E0E0E0;
             --azul-facebook: #4267B2;
@@ -22,24 +22,24 @@
             line-height: 1.8;
             margin: 0;
             padding: 0;
+            font-size: 20px; /* Maior base para 60+ */
         }
 
         h1, h2, h3 {
             font-family: Georgia, 'Times New Roman', Times, serif;
             color: var(--verde-floresta);
-            line-height: 1.3;
+            line-height: 1.2;
         }
 
         .top-urgency {
-            background-color: var(--verde-floresta);
+            background-color: #C0392B; /* Vermelho urgente */
             color: white;
             text-align: center;
             padding: 12px;
-            font-size: 0.9em;
+            font-size: 0.85em;
             font-family: 'Segoe UI', sans-serif;
             font-weight: bold;
-            position: sticky;
-            top: 0;
+            position: relative;
             z-index: 1000;
         }
 
@@ -48,7 +48,7 @@
             margin: 0 auto;
             padding: 20px;
             background: white;
-            box-shadow: 0 0 20px rgba(0,0,0,0.03);
+            box-shadow: 0 0 40px rgba(0,0,0,0.06);
         }
 
         header {
@@ -61,8 +61,8 @@
         .category-tag {
             text-transform: uppercase;
             font-weight: bold;
-            color: #C0392B;
-            font-size: 0.85em;
+            color: var(--verde-floresta);
+            font-size: 0.8em;
             letter-spacing: 2px;
             font-family: 'Segoe UI', sans-serif;
             margin-bottom: 10px;
@@ -72,15 +72,19 @@
         .headline {
             font-size: 2.8em;
             margin: 15px 0;
-            font-weight: bold;
+            font-weight: 900;
             color: #000;
+            letter-spacing: -1px;
         }
 
         .subheadline {
-            font-size: 1.4em;
+            font-size: 1.45em;
             color: #444;
             font-style: italic;
             margin-bottom: 30px;
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .author-box {
@@ -114,8 +118,9 @@
         }
 
         .content-body p {
-            margin-bottom: 25px;
-            font-size: 1.25em;
+            margin-bottom: 30px;
+            font-size: 1.35em;
+            color: #2c3e50;
         }
 
         .scientific-ref {
@@ -308,9 +313,9 @@
 
     <div class="container">
         <header>
-            <span class="category-tag">ALFORRIA FARMACÊUTICA | RELATÓRIO 60+</span>
-            <h1 class="headline">Transforme temperos comuns no seu arsenal secreto contra as dores do envelhecimento.</h1>
-            <p class="subheadline">Como a técnica de "Sinergia Térmico-Enzimática" está permitindo que brasileiros abandonem a 'coleira da farmácia' em até 21 dias.</p>
+            <span class="category-tag">ALFORRIA FARMACÊUTICA | MÉTODO SAB</span>
+            <h1 class="headline">Recupere sua mobilidade e dê adeus à "coleira da farmácia" sem sair da sua cozinha.</h1>
+            <p class="subheadline">Descubra como a <strong>Ativação Térmico-Enzimática</strong> transmuta temperos de R$ 2,00 em ativos de cura 20x mais potentes que anti-inflamatórios sintéticos.</p>
             
             <div class="author-box">
                 <div class="author-img"></div>
@@ -320,9 +325,9 @@
         </header>
 
         <section class="content-body">
-            <p>Você já sentiu que está <strong>"alugando"</strong> sua saúde?</p>
+            <p>Você já sentiu que o seu corpo se tornou um <strong>"fardo"</strong> para os seus filhos e netos?</p>
             
-            <p>Acorda com o joelho travado, toma uma pílula colorida para a dor. Duas horas depois, precisa de um protetor gástrico porque o estômago começou a queimar. À noite, um relaxante para conseguir dormir.</p>
+            <p>Aquela queimação no joelho que impede você de sentar no chão para brincar... Aquela rigidez matinal que faz você parecer 20 anos mais velha do que realmente é... E o pior: a sensação de que você está <strong>"alugando"</strong> sua saúde de uma farmácia que cobra cada vez mais caro.</p>
 
             <img src="imagem/Manual Principal.png" alt="Manual da Cura Ancestral" class="tsl-image">
 
@@ -335,10 +340,11 @@
             </div>
 
             <div class="mechanism-box">
-                <h2>🔬 O Mecanismo SAB: Por que chás comuns falham?</h2>
-                <p>O fracasso das "receitinhas de internet" não é culpa da planta, mas da <strong>Inércia Térmica</strong>. Sem a ativação correta, o fitoterápico é apenas 'tempero passivo'.</p>
-                <p>O <strong>Sistema de Ativação Bio-Molecular (SAB)</strong> utiliza combinações exatas de calor controlado e agentes de transporte (lipídios) para romper a barreira celular da planta, liberando até 300% mais ativos diretamente no seu sangue.</p>
+                <h2>🔬 O Mecanismo SAB: A "Chave" que Liberta a Cura</h2>
+                <p>O fracasso das "receitinhas de internet" não é culpa da planta, mas da <strong>Inércia Térmica</strong>. Sem a ativação correta, o fitoterápico é apenas 'tempero passivo' que o seu estômago destrói antes de chegar ao sangue.</p>
+                <p>O <strong>Sistema de Ativação Bio-Molecular (SAB)</strong> utiliza o choque térmico controlado e veículos lipídicos para romper a "armadura celular" da erva, liberando os ativos de cura diretamente na sua corrente sanguínea com até <strong>20x mais potência</strong>.</p>
             </div>
+
 
             <h2>Minha Vitória: De Refém a Soberana</h2>
             <p>Em apenas 14 dias seguindo o SAB, senti meu corpo <strong>'desenferrujar'</strong>. Subir escadas sem estalos nos joelhos e acordar com as mãos leves, sem o peso da inflamação crônica.</p>
@@ -371,8 +377,8 @@
                 <h2>Tenha a Cura na sua Despensa Agora</h2>
                 <p>Economize até R$ 450,00 mensais em remédios e recupere sua dignidade.</p>
 
-                <div style="text-align: left; margin: 30px 0; border: 2px solid #eee; padding: 25px; border-radius: 12px; background: #fafafa;">
-                    <div style="display: flex; justify-content: space-between; margin-bottom: 12px; border-bottom: 1px solid #ddd; padding-bottom: 5px;"><span>Manual Principal SAB</span> <strong>R$ 297,00</strong></div>
+                <div style="text-align: left; margin: 30px 0; border: 2px solid #eee; padding: 25px; border-radius: 12px; background: #fafafa; font-size: 0.95em;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 12px; border-bottom: 1px solid #ddd; padding-bottom: 5px;"><span>✅ Manual Principal SAB</span> <strong>R$ 297,00</strong></div>
                     <div style="display: flex; justify-content: space-between; margin-bottom: 12px; border-bottom: 1px solid #ddd; padding-bottom: 5px;"><span>🎁 Bônus: Faxina Hepática</span> <strong>GRÁTIS</strong></div>
                     <div style="display: flex; justify-content: space-between; margin-bottom: 12px; border-bottom: 1px solid #ddd; padding-bottom: 5px;"><span>🎁 Bônus: Mercado de Ouro</span> <strong>GRÁTIS</strong></div>
                     <div style="display: flex; justify-content: space-between; margin-bottom: 12px; border-bottom: 1px solid #ddd; padding-bottom: 5px;"><span>🎁 Bônus: Cozinha Alquímica</span> <strong>GRÁTIS</strong></div>
