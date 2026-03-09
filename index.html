@@ -281,12 +281,61 @@
             font-weight: normal;
         }
 
-        .references-section {
-            font-size: 0.85em;
-            color: #777;
+        .faq-section {
             margin-top: 80px;
-            padding-top: 30px;
-            border-top: 1px solid #eee;
+            text-align: left;
+        }
+
+        .faq-section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .faq-item {
+            background: #fff;
+            border: 1px solid #eee;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            padding: 25px;
+            transition: all 0.3s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        }
+
+        .faq-item:hover {
+            border-color: var(--verde-floresta);
+            box-shadow: 0 5px 15px rgba(45, 90, 39, 0.05);
+        }
+
+        .faq-question {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: var(--verde-floresta);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .faq-question::before {
+            content: '?';
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background-color: var(--verde-floresta);
+            color: white;
+            border-radius: 50%;
+            font-size: 0.8em;
+            flex-shrink: 0;
+        }
+
+        .faq-answer {
+            color: #555;
+            font-size: 1em;
+            line-height: 1.6;
+            padding-left: 40px;
         }
 
         footer {
@@ -309,12 +358,13 @@
         .ba-before { background: #fee; border: 1px solid #fcc; }
         .ba-after { background: #efe; border: 1px solid #cfc; }
 
-        @media (max-width: 600px) {
-            .headline { font-size: 2.2em; }
-            .container { padding: 15px; }
-            .before-after { grid-template-columns: 1fr; }
+        .references-section {
+            font-size: 0.85em;
+            color: #777;
+            margin-top: 80px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
         }
-    </style>
 </head>
 <body>
 
@@ -502,8 +552,13 @@
                 </div>
             </div>
 
-            <div class="scientific-ref" style="background: #fff9c4; padding: 20px; border-radius: 8px; margin: 40px 0; color: #000; font-size: 1em; line-height: 1.4;">
-                <strong>QUEBRA DE OBJEÇÃO FINAL:</strong> "Você pode continuar tentando 'dicas' soltas e gastando com remédios que agridem seu estômago, ou pode investir hoje menos do que o valor de um jantar fora para ter o mapa exato da sua saúde."
+            <div class="scientific-ref" style="background: #fff9c4; padding: 30px; border-radius: 12px; margin: 40px 0; color: #000; font-size: 1.1em; line-height: 1.6; border: 2px dashed #f1c40f;">
+                "Você pode continuar tentando 'dicas' soltas e gastando com remédios que agridem seu estômago, ou pode investir hoje menos do que o valor de um jantar fora para ter o mapa exato da sua saúde."
+            </div>
+
+            <div style="text-align: center; margin-bottom: 60px;">
+                <a href="#oferta" class="cta-button" style="display: inline-block; width: auto; padding: 25px 50px;">QUERO GARANTIR MINHA VAGA AGORA ➱</a>
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px;">🔒 Compra 100% Segura e Garantida</p>
             </div>
 
             <div class="references-section">
