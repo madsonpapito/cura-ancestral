@@ -13,6 +13,8 @@
             --laranja-cta: #F28C28;
             --borda-suave: #E0E0E0;
             --azul-facebook: #4267B2;
+            --dourado: #D4AF37;
+            --alerta-vermelho: #C0392B;
         }
 
         body {
@@ -123,13 +125,6 @@
             color: #2c3e50;
         }
 
-        .scientific-ref {
-            font-size: 0.7em;
-            vertical-align: super;
-            color: var(--verde-floresta);
-            font-weight: bold;
-        }
-
         .highlight-quote {
             background-color: #f0f4ef;
             border-left: 6px solid var(--verde-floresta);
@@ -140,26 +135,17 @@
             color: #1a3317;
         }
 
-        .step-box {
-            background: #fff;
-            padding: 35px;
-            border-radius: 15px;
-            margin: 50px 0;
-            border: 2px solid var(--verde-floresta);
-            box-shadow: 0 5px 15px rgba(45, 90, 39, 0.1);
-        }
-
         .mechanism-box {
             background: var(--verde-floresta);
             color: white;
             padding: 40px;
             border-radius: 12px;
             margin: 50px 0;
-            border: 2px solid var(--dourado); /* Toque de autoridade */
+            border: 2px solid var(--dourado);
         }
 
         .mechanism-box h2 { color: #fff; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 15px; }
-        .mechanism-box p { color: white !important; } /* Correção crítica de legibilidade */
+        .mechanism-box p { color: white !important; }
 
         .enemy-box {
             background: #fff0f0;
@@ -216,13 +202,6 @@
             font-family: Helvetica, Arial, sans-serif;
         }
 
-        .social-proof h3 {
-            font-family: 'Segoe UI', sans-serif;
-            font-size: 1.1em;
-            color: #65676b;
-            margin-bottom: 20px;
-        }
-
         .comment-box {
             display: flex;
             gap: 10px;
@@ -268,27 +247,9 @@
             margin-bottom: 15px;
         }
 
-        .comment-actions span {
-            cursor: pointer;
-            margin-right: 10px;
-        }
-
-        .comment-actions span:hover {
-            text-decoration: underline;
-        }
-
-        .comment-actions .timestamp {
-            font-weight: normal;
-        }
-
         .faq-section {
             margin-top: 80px;
             text-align: left;
-        }
-
-        .faq-section h2 {
-            text-align: center;
-            margin-bottom: 40px;
         }
 
         .faq-item {
@@ -297,13 +258,7 @@
             border-radius: 12px;
             margin-bottom: 20px;
             padding: 25px;
-            transition: all 0.3s;
             box-shadow: 0 2px 5px rgba(0,0,0,0.02);
-        }
-
-        .faq-item:hover {
-            border-color: var(--verde-floresta);
-            box-shadow: 0 5px 15px rgba(45, 90, 39, 0.05);
         }
 
         .faq-question {
@@ -314,7 +269,6 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            font-family: 'Segoe UI', sans-serif;
         }
 
         .faq-question::before {
@@ -329,22 +283,6 @@
             border-radius: 50%;
             font-size: 0.8em;
             flex-shrink: 0;
-        }
-
-        .faq-answer {
-            color: #555;
-            font-size: 1em;
-            line-height: 1.6;
-            padding-left: 40px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 80px 20px;
-            font-size: 0.9em;
-            color: #999;
-            background-color: white;
-            font-family: 'Segoe UI', sans-serif;
         }
 
         .before-after {
@@ -420,6 +358,37 @@
                 <p>O <strong>Sistema de Ativação Bio-Molecular (SAB)</strong> utiliza o choque térmico controlado e veículos lipídicos para romper a "armadura celular" da erva, liberando os ativos de cura diretamente na sua corrente sanguínea com até <strong>20x mais potência</strong>.</p>
             </div>
 
+            <div style="background: #fff; padding: 40px; border-radius: 20px; border: 2px solid #eee; margin: 50px 0;">
+                <h2 style="text-align: center; color: var(--alerta-vermelho);">Isso é para você se...</h2>
+                <ul style="list-style: none; padding: 0; font-size: 1.1em;">
+                    <li style="margin-bottom: 15px; display: flex; gap: 15px;">❌ <strong>Você acorda sentindo que seu corpo está "enferrujado" e pesado.</strong></li>
+                    <li style="margin-bottom: 15px; display: flex; gap: 15px;">❌ <strong>Seu estômago não aguenta mais o peso dos anti-inflamatórios.</strong></li>
+                    <li style="margin-bottom: 15px; display: flex; gap: 15px;">❌ <strong>Você sente revolta ao ver sua aposentadoria ficando no balcão da farmácia.</strong></li>
+                    <li style="margin-bottom: 15px; display: flex; gap: 15px;">❌ <strong>Você tem medo de perder a liberdade de caminhar e brincar com seus netos.</strong></li>
+                </ul>
+                <p style="text-align: center; font-weight: bold; color: var(--verde-floresta); margin-top: 20px;">Se você respondeu "SIM" para uma dessas frases, o Manual é sua Alforria.</p>
+            </div>
+
+            <div style="background: #f0f4ef; padding: 40px; border-radius: 20px; margin: 50px 0;">
+                <h2 style="text-align: center;">Os 21 Dias da sua Transformação</h2>
+                <p style="text-align: center;">O Protocolo V.I.T.A.L não é uma dieta, é um mapa de ativação celular:</p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 30px;">
+                    <div style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                        <strong style="color: var(--verde-floresta); display: block; margin-bottom: 10px;">Fase 1: VINCULAR</strong>
+                        <small>Dias 1-3: Criamos as tríades de ervas que anulam a dor residual no sangue.</small>
+                    </div>
+                    <div style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                        <strong style="color: var(--verde-floresta); display: block; margin-bottom: 10px;">Fase 2: INCENDIAR</strong>
+                        <small>Dias 4-7: Usamos o calor milimétrico para destravar a parede das plantas.</small>
+                    </div>
+                    <div style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                        <strong style="color: var(--verde-floresta); display: block; margin-bottom: 10px;">Fase 3: TRANSMUDAR</strong>
+                        <small>Dias 8-14: Ativamos os lipídios que levam a cura até a inflamação.</small>
+                    </div>
+                </div>
+                <p style="text-align: center; margin-top: 30px; font-style: italic;">"Se você sabe ferver água para um café, você tem toda a habilidade necessária para o SAB."</p>
+            </div>
 
             <div style="background: #fdfaf6; padding: 40px; border-radius: 20px; border: 1px solid #e9dcc9; margin: 50px 0;">
                 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 25px; text-align: left;">
@@ -442,19 +411,33 @@
                 </div>
             </div>
 
-            <img src="imagem/kit completo.png" alt="Kit Completo Cura Ancestral" class="tsl-image">
-
-            <div class="step-box">
-                <h3 style="margin-top: 0; color: var(--verde-floresta);">O PROTOCOLO V.I.T.A.L.</h3>
-                <p>Um mapa de 21 dias para sua independência total:</p>
-                <ul style="padding-left: 20px; font-size: 1.1em;">
-                    <li><strong>Vincular:</strong> Tríades de ervas que anulam a dor.</li>
-                    <li><strong>Incendiar:</strong> Ativação térmica para destravar a planta.</li>
-                    <li><strong>Transmudar:</strong> Levar a cura até o ponto exato da inflamação.</li>
-                    <li><strong>Alimentar:</strong> Janelas de alta absorção enzimática.</li>
-                    <li><strong>Libertar:</strong> O desmame natural da 'farmácia de balcão'.</li>
-                </ul>
+            <div style="background: #fff5f5; border: 2px solid #ffcdd2; padding: 40px; border-radius: 20px; margin: 50px 0; position: relative; overflow: hidden;">
+                <h2 style="color: #c62828; margin-top: 0;">⚠️ O Custo Oculto da sua Espera</h2>
+                <p>Cada dia que você adia o uso do Método SAB e continua refém dos sintéticos, você está enfrentando a <strong>"Janela de Erosão Gástrica"</strong>.</p>
+                <p>Estudos mostram que o uso contínuo de anti-inflamatórios pode corroer até 12% da sua mucosa estomacal por mês. Não é apenas dor no joelho; é o risco de uma úlcera ou de perder a capacidade de absorver nutrientes vitais para sua longevidade.</p>
+                <div style="background: #c62828; color: white; padding: 15px; border-radius: 8px; text-align: center; font-weight: bold; margin-top: 20px;">
+                    O tempo não cura... ele corrói se você não agir na causa.
+                </div>
             </div>
+
+            <div style="background: #fafafa; border: 1px solid #ddd; padding: 40px; border-radius: 20px; margin: 50px 0;">
+                <h2 style="text-align: center;">Um Investimento que se Paga em 15 Dias</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 30px;">
+                    <div style="text-align: center; padding: 20px; border-right: 1px solid #eee;">
+                        <p style="color: #666; margin-bottom: 5px;">Custo da Farmácia</p>
+                        <strong style="font-size: 1.8em; color: #c62828;">R$ 4.800,00</strong>
+                        <p style="font-size: 0.8em; color: #999;">(Média anual em remédios e exames)</p>
+                    </div>
+                    <div style="text-align: center; padding: 20px;">
+                        <p style="color: #666; margin-bottom: 5px;">Manual Cura Ancestral</p>
+                        <strong style="font-size: 1.8em; color: var(--verde-floresta);">R$ 147,00</strong>
+                        <p style="font-size: 0.8em; color: #999;">(Pagamento único, alforria vitalícia)</p>
+                    </div>
+                </div>
+                <p style="text-align: center; margin-top: 30px; font-weight: bold; color: var(--verde-floresta);">Você economiza R$ 4.653,00 já no primeiro ano.</p>
+            </div>
+
+            <img src="imagem/kit completo.png" alt="Kit Completo Cura Ancestral" class="tsl-image">
 
             <div class="offer-card" id="oferta">
                 <div style="text-transform: uppercase; font-weight: bold; color: #C0392B; font-size: 0.9em; margin-bottom: 15px; letter-spacing: 2px;">OFERTA DE ALFORRIA: LOTE PROMOCIONAL</div>
@@ -470,6 +453,7 @@
                 </div>
 
                 <p style="text-decoration: line-through; color: #999; margin-bottom: 0;">Valor Total: R$ 1.205,00</p>
+                <div style="background: #e8f5e9; color: var(--verde-floresta); display: inline-block; padding: 5px 15px; border-radius: 50px; font-weight: bold; font-size: 0.9em; margin-bottom: 10px;">VOCÊ ECONOMIZA R$ 1.058,00 HOJE</div>
                 <div class="price-highlight">12x de R$ 14,67</div>
                 <p style="margin-top: -15px; color: #666; font-weight: bold;">ou R$ 147,00 à vista no PIX</p>
 
@@ -486,83 +470,49 @@
 
             <div class="social-proof">
                 <h3>Comentários em destaque</h3>
-                
-                <div class="comment-container">
-                    <div class="comment-box">
-                        <div class="comment-avatar" style="background-image: url('imagem/avatares/female-5.png');"></div>
-                        <div class="comment-bubble">
-                            <span class="comment-name">Maria Auxiliadora S.</span>
-                            <span class="comment-text">Finalmente alguém explicou por que os chás que eu fazia não funcionavam! Estou no dia 4 do Elixir e a queimação sumiu. Gratidão Dirce! 🙏</span>
-                        </div>
-                    </div>
-                    <div class="comment-actions">
-                        <span>Curtir</span> <span>Responder</span> <span class="timestamp">4 min</span>
-                    </div>
-
-                    <div class="comment-box">
-                        <div class="comment-avatar" style="background-image: url('imagem/avatares/female-6.jpg');"></div>
-                        <div class="comment-bubble">
-                            <span class="comment-name">Lourdes Rocha</span>
-                            <span class="comment-text">Eu não acreditava que o açafrão com óleo de coco faria o que o remédio de R$ 120 não fez. Minha vida mudou, não sinto mais aquela queimação chata!</span>
-                        </div>
-                    </div>
-                    <div class="comment-actions">
-                        <span>Curtir</span> <span>Responder</span> <span class="timestamp">22 min</span>
-                    </div>
-
-                    <div class="comment-box">
-                        <div class="comment-avatar" style="background-image: url('imagem/avatares/female-7.png');"></div>
-                        <div class="comment-bubble">
-                            <span class="comment-name">Zélia Motta</span>
-                            <span class="comment-text">O Guia Mercado de Ouro me ajudou a economizar muito. Agora minha cozinha é meu laboratório de cura. Recomendo para todas as amigas!</span>
-                        </div>
-                    </div>
-                    <div class="comment-actions">
-                        <span>Curtir</span> <span>Responder</span> <span class="timestamp">1 h</span>
-                    </div>
-
-                    <div class="comment-box">
-                        <div class="comment-avatar" style="background-image: url('imagem/avatares/female-8.jpg');"></div>
-                        <div class="comment-bubble">
-                            <span class="comment-name">Eunice Sampaio</span>
-                            <span class="comment-text">Minha pressão estabilizou depois que comecei a usar o alho ativado pelo SAB. Até o meu médico perguntou o que eu estava fazendo de diferente. Estou muito feliz!</span>
-                        </div>
-                    </div>
-                    <div class="comment-actions">
-                        <span>Curtir</span> <span>Responder</span> <span class="timestamp">2 h</span>
-                    </div>
-
-                    <div class="comment-box">
-                        <div class="comment-avatar" style="background-image: url('imagem/avatares/male-1.png');"></div>
-                        <div class="comment-bubble">
-                            <span class="comment-name">Raimundo Antenor</span>
-                            <span class="comment-text">A dor na lombar que me acompanhava há 15 anos finalmente deu trégua. Faço a compressa toda noite e acordo pronto para outra. Melhor investimento que já fiz.</span>
-                        </div>
-                    </div>
-                    <div class="comment-actions">
-                        <span>Curtir</span> <span>Responder</span> <span class="timestamp">3 h</span>
+                <div class="comment-box">
+                    <div class="comment-avatar" style="background-image: url('imagem/avatares/female-5.png');"></div>
+                    <div class="comment-bubble">
+                        <span class="comment-name">Maria Auxiliadora S.</span>
+                        <span class="comment-text">Finalmente alguém explicou por que os chás que eu fazia não funcionavam! Estou no dia 4 do Elixir e a queimação sumiu. Gratidão Dirce! 🙏</span>
                     </div>
                 </div>
+                <div class="comment-actions"><span>Curtir</span> <span>Responder</span> <span class="timestamp">4 min</span></div>
+
+                <div class="comment-box">
+                    <div class="comment-avatar" style="background-image: url('imagem/avatares/female-6.jpg');"></div>
+                    <div class="comment-bubble">
+                        <span class="comment-name">Lourdes Rocha</span>
+                        <span class="comment-text">Eu não acreditava que o açafrão com óleo de coco faria o que o remédio de R$ 120 não fez. Minha vida mudou, não sinto mais aquela queimação chata!</span>
+                    </div>
+                </div>
+                <div class="comment-actions"><span>Curtir</span> <span>Responder</span> <span class="timestamp">22 min</span></div>
             </div>
 
             <div class="faq-section">
                 <h2>Dúvidas Frequentes</h2>
                 <div class="faq-item">
                     <div class="faq-question">Já tem receita grátis na internet, por que pagar?</div>
-                    <div class="faq-answer">Na internet você encontra palpites. O Manual é um MÉTODO validado para corpos 50+, com dosagens que protegem seu fígado e estômago. É a diferença entre tentar a sorte e seguir um mapa seguro.</div>
+                    <div class="faq-answer">Na internet você encontra palpites. O Manual é um MÉTODO validado para corpos 50+, com dosagens que protegem seu fígado e estômago.</div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-question">Vou precisar de ingredientes caros ou raros?</div>
-                    <div class="faq-answer">Pelo contrário. Sua 'farmácia' será a feira. Usamos alho, alecrim, limão e cúrcuma — itens que custam centavos. A economia do primeiro mês paga o manual cinco vezes.</div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">Tenho medo de abandonar meus remédios.</div>
-                    <div class="faq-answer">Nós não recomendamos parar remédios por conta própria. O SAB fortalece seu corpo para que seu PRÓPRIO médico, ao ver seus novos exames, decida reduzir suas dosagens químicas.</div>
+                    <div class="faq-answer">Pelo contrário. Sua 'farmácia' será a feira. Usamos alho, alecrim, limão e cúrcuma — itens que custam centavos.</div>
                 </div>
             </div>
 
-            <div class="scientific-ref" style="background: #fff9c4; padding: 30px; border-radius: 12px; margin: 40px 0; color: #000; font-size: 1.1em; line-height: 1.6; border: 2px dashed #f1c40f;">
-                "Você pode continuar tentando 'dicas' soltas e gastando com remédios que agridem seu estômago, ou pode investir hoje menos do que o valor de um jantar fora para ter o mapa exato da sua saúde."
+            <div style="background: #fff; border-left: 6px solid var(--laranja-cta); padding: 30px; margin: 50px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                <h3 style="color: var(--laranja-cta); margin-top: 0;">⚠️ Cuidado com as "Dicas Grátis" da Internet</h3>
+                <p style="font-size: 1.1em;">Talvez você já tenha tentado tomar açafrão, gengibre ou suco de limão e não sentiu nada. <strong>Isso não foi culpa da planta.</strong></p>
+                <p>Receitas soltas são palpites perigosos. Sem a sinergia correta e a ativação térmica do SAB, você está apenas desperdiçando dinheiro. O Manual entrega o <strong>Método Validado</strong>: a dosagem exata para corpos 50+.</p>
+            </div>
+
+            <div class="comment-box" style="background: #fdfaf6; padding: 25px; border-radius: 15px; border: 1px solid #eee;">
+                <div class="comment-avatar" style="width: 60px; height: 60px; background-image: url('imagem/avatares/male-1.png'); border: 2px solid var(--verde-floresta);"></div>
+                <div style="flex: 1;">
+                    <span class="comment-name">Jorge Mendes, 68 anos</span>
+                    <p class="comment-text" style="font-style: italic;">"Eu sou engenheiro aposentado e sempre fui cético. Mas em 10 dias, os estalos no meu joelho pararam e eu voltei a caminhar meus 4km por dia. Melhor decisão que tomei."</p>
+                </div>
             </div>
 
             <div style="text-align: center; margin-bottom: 60px;">
