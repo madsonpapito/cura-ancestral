@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { LASTLINK_CONFIG } from '../../config/lastlink';
+import { ShieldCheck } from 'lucide-react';
 
 export function OfferCard() {
   return (
@@ -84,7 +85,9 @@ export function OfferCard() {
         </a>
 
         <div className="mt-12 flex flex-col md:flex-row items-center gap-8 bg-sage/5 p-8 rounded-3xl border border-sage/20 text-left">
-          <Image src="https://img.icons8.com/color/96/guarantee.png" width={80} height={80} alt="Garantia" className="shrink-0" />
+          <div className="bg-forest/10 p-4 rounded-2xl shrink-0">
+            <ShieldCheck className="w-12 h-12 text-forest" />
+          </div>
           <div>
             <strong className="text-forest block mb-2 text-lg uppercase tracking-tight font-black">GARANTIA &quot;OU VOCÊ CURA OU EU PAGO&quot;</strong>
             <p className="text-base text-gray-700 leading-relaxed font-serif italic">
