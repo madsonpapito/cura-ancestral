@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { STAGES } from '../lib/lessons';
+import { STAGES } from '../../lib/lessons';
 
 const premiumMaterials = [
   {
