@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { STAGES, type Lesson } from '../../lib/lessons';
+import { STAGES, type Lesson } from '../../../lib/lessons';
 
 type Props = {
   params: Promise<{ id: string }>;
