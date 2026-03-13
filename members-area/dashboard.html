@@ -153,6 +153,9 @@
         .btn-access:hover {
             background-color: var(--verde-claro);
         }
+        .btn-access:active {
+            transform: translateY(2px);
+        }
 
         .footer-area {
             text-align: center;
@@ -183,7 +186,13 @@
         }
 
         @media (max-width: 600px) {
-            .module-grid { grid-template-columns: 1fr; }
+            .navbar { padding: 10px 15px; }
+            .main-container { padding: 10px; margin-top: 10px; }
+            .welcome-hero { padding: 20px; border-left-width: 5px; }
+            h1 { font-size: 1.5em; }
+            .module-grid { grid-template-columns: 1fr; gap: 15px; }
+            .module-card:hover { transform: none; }
+            .community-cta { flex-direction: column; text-align: center; gap: 15px; padding: 15px; }
         }
     </style>
 </head>
@@ -200,7 +209,7 @@
     <div class="main-container">
         
         <section class="welcome-hero">
-            <h1>Bem-vinda de volta à sua jornada, Dirce!</h1>
+            <h1>Que bom ter você aqui de novo, Dirce!</h1>
             <p style="font-size: 1.1em;">"A saúde é o silêncio dos órgãos." — Vamos continuar transformando sua despensa em sua maior aliada?</p>
             
             <div class="progress-section">
@@ -212,7 +221,7 @@
             </div>
         </section>
 
-        <h2>📚 Seus Módulos de Estudo</h2>
+        <h2>📚 Suas Próximas Lições</h2>
         
         <div class="module-grid">
             
@@ -222,7 +231,7 @@
                 <div class="module-content">
                     <span class="module-tag">Comece por aqui</span>
                     <h3 class="module-title">Boas-Vindas & Primeiros Passos</h3>
-                    <p style="font-size: 0.9em; color: #666;">Aprenda a navegar no portal e baixar seus manuais.</p>
+                    <p style="font-size: 0.9em; color: #666;">Aqui eu te ensino como usar esta página e como baixar seus guias.</p>
                     <a href="aula.html?mod=0" class="btn-access">ACESSAR AULAS</a>
                 </div>
             </div>
@@ -267,7 +276,7 @@
                     <span class="module-tag">Presentes</span>
                     <h3 class="module-title">Bônus & Materiais de Apoio</h3>
                     <p style="font-size: 0.9em; color: #666;">Baixe seu manual principal e as tabelas de segurança.</p>
-                    <a href="aula.html?mod=4" class="btn-access">BAIXAR MATERIAIS</a>
+                    <a href="manual-principal.html" class="btn-access">BAIXAR MANUAL</a>
                 </div>
             </div>
 
@@ -278,7 +287,7 @@
                     <span class="module-tag">Conteúdo Especial</span>
                     <h3 class="module-title">O Cofre das Ervas Raras</h3>
                     <p style="font-size: 0.9em; color: #666;">Técnicas avançadas de regeneração metabólica.</p>
-                    <a href="aula.html?mod=5" class="btn-access">ACESSAR COFRE</a>
+                    <a href="cofre-ervas-raras.html" class="btn-access">ACESSAR COFRE</a>
                 </div>
             </div>
 
@@ -289,7 +298,7 @@
                 <h3 style="color: white; margin: 0 0 5px 0;">Precisa de ajuda ou quer compartilhar um chá?</h3>
                 <p style="margin: 0;">Nossa comunidade no WhatsApp está esperando por você!</p>
             </div>
-            <a href="#" class="btn-whatsapp">ENTRAR NO GRUPO</a>
+            <a href="https://chat.whatsapp.com/invite/cura-ancestral-oficial" id="btn-whatsapp" class="btn-whatsapp">ENTRAR NO GRUPO</a>
         </section>
 
     </div>

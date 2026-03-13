@@ -140,6 +140,10 @@
             transform: scale(1.02);
             background-color: #219150;
         }
+        .cta-pay:active {
+            transform: scale(1) translateY(2px);
+            box-shadow: 0 2px 5px rgba(39, 174, 96, 0.2);
+        }
 
         .trust-seals {
             display: flex;
@@ -151,7 +155,15 @@
         @media (max-width: 768px) {
             .checkout-container {
                 grid-template-columns: 1fr;
+                padding: 10px;
+                margin-top: 10px;
             }
+            .order-bump { padding: 15px; flex-direction: column; text-align: center; }
+            .order-bump img { width: 100px; margin: 0 auto; }
+            .section-box { padding: 20px; }
+            .cta-pay { font-size: 1.15em; padding: 15px; }
+            .header-checkout h1 { font-size: 1.3em; }
+            .trust-seals { flex-wrap: wrap; gap: 10px; }
         }
     </style>
 </head>

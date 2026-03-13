@@ -105,6 +105,9 @@
         .cta-button:hover {
             transform: scale(1.05);
         }
+        .cta-button:active {
+            transform: scale(1.02) translateY(2px);
+        }
 
         .no-thanks {
             display: block;
@@ -112,6 +115,16 @@
             color: #999;
             text-decoration: underline;
             font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            header { margin: 20px auto; padding: 10px; }
+            h1 { font-size: 1.6em; }
+            .main-container { padding: 25px 15px; }
+            .product-image { max-width: 200px; }
+            .button-accept { font-size: 1.1em !important; padding: 20px 15px !important; }
+            .button-deny { font-size: 14px !important; }
+            .benefit-item { font-size: 0.95em; }
         }
     </style>
 </head>
