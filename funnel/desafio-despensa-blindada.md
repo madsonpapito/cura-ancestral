@@ -24,7 +24,7 @@ O Desafio Despensa Blindada é a porta de entrada para o ecossistema da Cura Anc
 - **Selo 'Matriarca da Cura'**: Reconhecimento para quem postar fotos dos desafios diários no grupo.
 
 ## 💰 Oferta Especial (Pós-Desafio)
-- **Preço**: De R$ 297,00 por apenas R$ 147,00 (ou 12x de R$ 14,67).
+- **Preço**: De R$ 297,00 por apenas R$ 67,00 (ou 12x de R$ 6,73).
 - **Escassez**: Apenas 50 vagas para o grupo com suporte individualizado.
 - **Garantia**: 7 dias incondicional. "Se não sentir seu estômago mais leve ou juntas menos rígidas, devolvemos seu dinheiro."
 

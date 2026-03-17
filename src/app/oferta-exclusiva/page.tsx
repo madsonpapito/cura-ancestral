@@ -70,7 +70,7 @@ function UpsellOneContent() {
 
           <div className="mb-10">
             <span className="block text-gray-400 line-through text-lg">De R$ 497,00</span>
-            <span className="block text-4xl md:text-5xl font-black text-forest tracking-tight">Por apenas R$ 197,00</span>
+            <span className="block text-4xl md:text-5xl font-black text-forest tracking-tight">Por apenas R$ 147,00</span>
             <p className="text-gray-500 text-sm mt-2 uppercase font-bold">(Oferta única e exclusiva pós-compra)</p>
           </div>
 

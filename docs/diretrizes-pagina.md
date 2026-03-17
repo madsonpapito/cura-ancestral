@@ -6,7 +6,7 @@ Baseado na análise da referência (Ancient Remedies Revived), seguiremos estas 
 - **Headline:** Deve focar em curiosidade e "teste real" (ex: "Como substituir R$ 300 em remédios por temperos de cozinha").
 - **Conceito Central:** "Sinergia Herbal" (Protocolo V.I.T.A.L.) - Explicar por que combinar ervas comuns é mais potente que remédios isolados.
 - **Narrativa:** Focada na "Matriarca da Cura" (Nancy Porter style) - Alguém que sofria com efeitos colaterais e descobriu a solução na despensa.
-- **Value Stack:** Ancoragem de R$ 1.205 por R$ 147.
+- **Value Stack:** Ancoragem de R$ 1.205 por R$ 67.
 - **Garantia:** 30 dias (Ou você cura ou eu pago).
 
 ## 🎨 Design Visual

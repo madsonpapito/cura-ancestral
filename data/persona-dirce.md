@@ -27,7 +27,7 @@
 - **Plataformas**: WhatsApp (família/igreja), Facebook (dicas de vovó), YouTube (vídeos informativos, mas odeia enrolação), Instagram (salva posts).
 - **Meio de Pagamento**: Prefere PIX (controle e desconto).
 - **Gatilho de Compra**: Site organizado, botão de WhatsApp visível e prova de que o método usa o que já tem na despensa (açafrão, alho, louro).
-- **Valor Percebido**: Preço menor que duas caixas de anti-inflamatório (R$ 147,00).
+- **Valor Percebido**: Preço menor que uma caixa de anti-inflamatório (R$ 67,00).
 
 ## 🎯 Dores Profundas & Desejos Ardentes
 - **Dores**: Perda de mobilidade/vitalidade, custo da farmácia corroendo a aposentadoria, sentir-se "descartada" pelo sistema de saúde.

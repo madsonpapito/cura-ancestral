@@ -86,14 +86,14 @@ Sem o V.I.T.A.L. + SAB, os temperos continuam sendo apenas condimentos. Com eles
 **PUV (uma frase):**  
 O **único** Sistema de Cozinha Bio-Ativa que transmuta temperos comuns (R$ 2,00) em ativos de alta absorção, mais potentes que muitos sintéticos, para brasileiros 55+ que buscam **independência total** da Indústria da Manutenção da Dor.
 
-**Value Stack – Valor Total Empilhado: R$ 1.205,00 | Hoje: R$ 147,00**  
+**Value Stack – Valor Total Empilhado: R$ 1.205,00 | Hoje: R$ 67,00**  
 - Manual da Cura Ancestral (Protocolo V.I.T.A.L. completo) → R$ 297,00  
 - 🎁 Bônus 1: Guia “Mercado de Ouro / Feira Econômica” (o que comprar por centavos) → R$ 67,00  
 - 🎁 Bônus 2: Protocolo de Faxina Hepática (limpeza de resíduos químicos) → R$ 147,00  
 - 🎁 Bônus 3: Masterclass “Cozinha Alquímica” (o ponto exato do SAB) → R$ 197,00  
 - 🎁 Bônus 4: Comunidade VIP “Mestres da Sinergia” (acesso vitalício) → R$ 497,00  
 
-**Economia real para o cliente:** R$ 1.058,00
+**Economia real para o cliente:** R$ 1.138,00
 
 **Garantia Incondicional – “Ou Você Cura ou Eu Pago”**  
 30 dias de risco zero. Se não houver melhora perceptível **ou** economia equivalente ao valor do manual na farmácia → 100% do dinheiro de volta, sem perguntas.

@@ -67,15 +67,15 @@ export function OfferCard() {
         <div className="mb-10">
           <p className="text-gray-400 line-through text-xl mb-1">Valor Total: R$ 1.205,00</p>
           <div className="bg-green-100 text-forest font-black py-2 px-6 rounded-full inline-block text-sm uppercase tracking-wider">
-            VOCÊ ECONOMIZA R$ 1.058,00 HOJE
+            VOCÊ ECONOMIZA R$ 1.138,00 HOJE
           </div>
         </div>
         
         <div className="mb-12">
           <span className="block text-6xl md:text-7xl font-black text-forest tracking-tighter leading-none mb-2 font-heading">
-            12x de R$ 14,67
+            12x de R$ 6,73
           </span>
-          <p className="text-gray-600 font-black text-xl italic font-serif">ou R$ 147,00 à vista no PIX</p>
+          <p className="text-gray-600 font-black text-xl italic font-serif">ou R$ 67,00 à vista no PIX</p>
         </div>
 
         <a href={LASTLINK_CONFIG.checkout.manual} className="group block">

@@ -17,13 +17,13 @@ export function ComparisonSection() {
         <div className="text-center p-8 bg-white rounded-3xl shadow-lg border-2 border-forest relative overflow-hidden">
           <div className="absolute top-0 left-0 bg-forest text-white text-[10px] font-black px-3 py-1 uppercase tracking-tighter">Sua Escolha Hoje</div>
           <p className="text-gray-500 font-bold uppercase tracking-widest text-sm mb-2">Manual Cura Ancestral</p>
-          <strong className="text-4xl md:text-5xl font-black text-forest block mb-2 font-serif">R$ 147,00</strong>
+          <strong className="text-4xl md:text-5xl font-black text-forest block mb-2 font-serif">R$ 67,00</strong>
           <p className="text-xs text-gray-400 font-medium">(Pagamento único, alforria vitalícia)</p>
         </div>
       </div>
       
       <p className="text-center mt-12 font-black text-forest text-xl md:text-2xl font-heading animate-bounce">
-        Você economiza R$ 4.653,00 já no primeiro ano.
+        Você economiza R$ 4.733,00 já no primeiro ano.
       </p>
     </section>
   );

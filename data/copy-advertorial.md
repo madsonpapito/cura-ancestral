@@ -34,7 +34,7 @@ Hoje, você não leva apenas o Manual. Você recebe o sistema completo:
 - 🎁 **BÔNUS 4: Comunidade VIP 'Mestres da Sinergia'** (R$ 497,00).
 
 **TOTAL: ~~R$ 1.205,00~~**
-**HOJE: Apenas R$ 147,00 (ou 12x de R$ 14,67)**
+**HOJE: Apenas R$ 67,00 (ou 12x de R$ 6,73)**
 
 ---
 

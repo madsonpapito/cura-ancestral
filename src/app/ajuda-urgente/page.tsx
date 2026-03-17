@@ -66,7 +66,7 @@ function DownsellOneContent() {
           </div>
 
           <div className="bg-gray-50 p-6 rounded-xl mb-10">
-            <span className="block text-gray-400 line-through text-lg">De R$ 197,00</span>
+            <span className="block text-gray-400 line-through text-lg">De R$ 147,00</span>
             <span className="block text-4xl md:text-5xl font-black text-forest tracking-tight">Por apenas R$ 47,00</span>
             <p className="text-gray-500 text-xs mt-2 uppercase font-bold">(Pagamento único, sem mensalidades)</p>
           </div>

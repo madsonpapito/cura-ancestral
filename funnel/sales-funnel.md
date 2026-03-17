@@ -3,7 +3,7 @@
 Este documento detalha o fluxo de vendas completo para o infoproduto **Manual da Cura Ancestral**, atualizado com a estrutura de páginas e integração Lastlink.
 
 ## 🛒 Produto Principal: Manual da Cura Ancestral (`index.html`)
-- **Preço**: R$ 147,00 (ou 12x de R$ 14,67).
+- **Preço**: R$ 67,00 (ou 12x de R$ 6,73).
 - **Entregáveis**: Manual Principal SAB + Bônus (Faxina Hepática, Mercado de Ouro, Cozinha Alquímica e Comunidade VIP).
 - **Checkout**: `https://lastlink.com/p/CE3FF59AF/checkout-payment`
 
@@ -13,7 +13,7 @@ Este documento detalha o fluxo de vendas completo para o infoproduto **Manual da
 
 ### 1. Upsell 1: O Cofre das Ervas Raras (`upsell-1.html`)
 - **Oferta**: Protocolo de regeneração avançada para reversão de danos metabólicos profundos.
-- **Preço**: R$ 197,00.
+- **Preço**: R$ 147,00.
 - **Fluxo**:
     - **SIM**: Direciona para `upsell-2.html`.
     - **NÃO**: Direciona para `downsell-1.html`.

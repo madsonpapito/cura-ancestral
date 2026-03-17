@@ -91,7 +91,7 @@ export default function CheckoutPage() {
               <div className="space-y-5 text-sm md:text-base border-b-2 border-gray-100 pb-8 mb-8 font-serif">
                 <div className="flex justify-between items-start gap-4">
                   <span className="text-gray-700 font-medium">Manual da Cura Ancestral (Digital)</span>
-                  <span className="font-bold text-gray-900 shrink-0">R$ 147,00</span>
+                  <span className="font-bold text-gray-900 shrink-0">R$ 67,00</span>
                 </div>
                 <div className="flex justify-between text-forest font-bold italic bg-forest/5 p-3 rounded-xl border border-forest/10">
                   <span>+ Sistema SAB & Protocolo V.I.T.A.L.</span>
@@ -102,7 +102,7 @@ export default function CheckoutPage() {
               <div className="flex justify-between items-center mb-10">
                 <span className="text-xl font-black text-black font-heading uppercase">Total</span>
                 <div className="text-right">
-                  <span className="block text-4xl font-black text-forest tracking-tighter">R$ 147,00</span>
+                  <span className="block text-4xl font-black text-forest tracking-tighter">R$ 67,00</span>
                   <span className="text-xs text-gray-400 font-bold uppercase tracking-tighter">Pagamento Único</span>
                 </div>
               </div>

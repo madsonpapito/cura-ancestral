@@ -5,7 +5,7 @@ export const LASTLINK_CONFIG = {
   upsells: {
     cofre: {
       id: "llupsell-C19D49E94-",
-      price: 197,
+      price: 147,
       denyRedirect: "/ajuda-urgente",
       acceptRedirect: "/upsell-2",
     },
